@@ -14,6 +14,7 @@ Bug fixes
 Internal Changes
 ~~~~~~~~~~~~~~~~
 * `xclim` code quality checks now use the newest `black` (v21.8-beta). Checks launched via `tox` and `pre-commit` now run formatting modifications over Jupyter notebooks found under `docs`.
+* The keyword `add_dims` in `sdba` can be provided as `str` or `Sequence[str]` instead of only `Sequence[str]`. `str` is now automatically converted to `[str]`.
 
 0.29.0 (2021-08-30)
 -------------------
